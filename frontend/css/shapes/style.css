@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 500px;
+    width:  500px;
+background: linear-gradient( to right bottom,rgb(213, 212, 212),rgb(61, 60, 60));
+background:radial-gradient(rgb(250, 244, 243),rgb(55, 56, 58));
+border-radius: 900px;   
+
+}
+#box1{
+  height: 200px;
+  width: 200px;
+background-color: crimson;
+position: absolute;
+top: 50%;
+left: 50% ;
+transform: translate(-50%,-50%);
+transform: translateX(20px);
+transform: translatey(40px);
+transform: rotate(45deg);
+}
+#box2{
+  height: 200px;
+  width: 200px;
+background-color: cyan;
+transform: skew(30deg);
+
+}
+#box3{
+  height: 200px;
+  width: 200px;
+background-color: lightpink;
+transform: scale(2,0.5);
+
+ 
+}
