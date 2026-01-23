@@ -1,0 +1,14 @@
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    animation: box 2s ease-in infinite;
+  
+}
+
+@keyframes box{
+    0%{background-color: red;}
+    10%{ background-color: green;}
+    50%{background-color: yellow;}
+    100%{background-color: red;}
+}
