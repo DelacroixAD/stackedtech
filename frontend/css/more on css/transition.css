@@ -1,0 +1,12 @@
+button{
+    background-color: crimson;
+ color: black;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 8s;
+    transform: translate3d(10px,10px,10px);
+
+
+}
+button:hover{
+    background-color: cyan;
+    transform: scale(0.8);
+}   
