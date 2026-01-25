@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    width: 100%;
+    height:400px;
+     background-color: wheat;
+     display: flex;
+     flex-wrap: nowrap;
+    
+
+    }
+.child{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+   flex-shrink: 0;
+   flex-grow: 1;
+}
