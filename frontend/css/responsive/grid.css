@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 1000px;
+    width: 1000px;
+    background-color: wheat;
+    display: grid; 
+    grid-template-columns: repeat(3,1fr);
+}
+.child{
+    height: 300px;
+    background-color: red;
+    border: 2px solid black;
+}

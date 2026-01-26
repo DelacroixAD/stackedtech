@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "a a b"
+    "a a b"
+    "c c c";
+}
+
+.child-a{
+    grid-area: a;
+background-color: green;
+
+}
+.child-b{
+    grid-area: b;
+    background-color: blue;
+}
+
+.child-c{
+    grid-area: c;
+    background-color: yellow;
+}
