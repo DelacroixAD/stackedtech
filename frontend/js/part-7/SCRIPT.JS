@@ -32,3 +32,34 @@ function mapkicopy(arr, fn){
 mapkicopy([1,2,3,4,5,6],function(value){
     return value +2;
 });
+// q-3
+function abcd(){
+    let def=0;
+    return function(){
+        count++;
+        console.log(count);
+    }
+}
+var makecount=counter();
+makecount();
+makecount();
+
+// q-4
+function fnlimiter(fn,limit){
+    let total=0
+    return function(){
+        if(total < limit){
+            total++;
+            fn();
+        } else {
+            console.log("Limit reached");
+        }
+    }
+}
+var l= fnlimiter(function(){console.log("Function executed")
+},4)
+l();
+l();
+l();
+l();
+l();
