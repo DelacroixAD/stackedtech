@@ -1,0 +1,8 @@
+.h-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: linear-gradient(to bottom, #f00, rgb(237, 141, 5));
+
+}
+
